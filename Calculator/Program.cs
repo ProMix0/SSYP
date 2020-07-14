@@ -170,6 +170,7 @@ namespace Calculator
                     break;
 
                 default:
+                    input = input.Trim('(', ')', ' ');
                     if (input.Length == 1 && char.IsLetter(char.Parse(input)))
                     {
                         this.value = CommonData.variables[char.Parse(input)];
@@ -177,7 +178,7 @@ namespace Calculator
                     else
                     {
                         //Console.WriteLine($"String to parse:{input.Trim('(', ')')}");
-                        this.value = double.Parse(input.Trim('(', ')'));
+                        this.value = double.Parse(input);
                     }
                     this.haveValue = true;
                     break;
