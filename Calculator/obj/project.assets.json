@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PABCWork.NET\\Project of year\\SSYP\\SSYP.csproj",
-      "projectName": "SSYP",
-      "projectPath": "C:\\PABCWork.NET\\Project of year\\SSYP\\SSYP.csproj",
+      "projectUniqueName": "C:\\PABCWork.NET\\Project of year\\SSYP\\Calculator\\Programm.csproj",
+      "projectName": "Programm",
+      "projectPath": "C:\\PABCWork.NET\\Project of year\\SSYP\\Calculator\\Programm.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\PABCWork.NET\\Project of year\\SSYP\\obj\\",
+      "outputPath": "C:\\PABCWork.NET\\Project of year\\SSYP\\Calculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"

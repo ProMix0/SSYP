@@ -4,25 +4,29 @@ using System.Collections.Generic;
 
 namespace Calculator
 {
+    static class CommonData
+    {
+        public static Dictionary<char, double> variables;
+    }
+
     static class Class
     {
         public static int LastIndexOfOutsideBrackets(this string source, char value)
         {
             int result = 0;
-            int open = 0;
-            int close = 0;
+            int bracketsBalance = 0;
             //Console.WriteLine($"Input of LastIndexOfOutsideBrackets: {source}");
             for (int i = source.Length - 1; i >= 0; i--)
             {
                 switch (source[i])
                 {
                     case '(':
-                        open++;
+                        bracketsBalance++;
                         break;
                     case ')':
-                        close++;
+                        bracketsBalance--;
                         break;
-                    case char c when c == value && open == close:
+                    case char c when c == value && bracketsBalance == 0:
                         //Console.WriteLine($"Index {i} in {source}");
                         result = i;
                         break;
@@ -35,19 +39,18 @@ namespace Calculator
         public static bool ContainsOutsideBrackets(this string source, char value)
         {
             bool result = false;
-            int open = 0;
-            int close = 0;
+            int bracketsBalance = 0;
             for (int i = 0; i < source.Length; i++)
             {
                 switch (source[i])
                 {
                     case '(':
-                        open++;
+                        bracketsBalance++;
                         break;
                     case ')':
-                        close++;
+                        bracketsBalance--;
                         break;
-                    case char c when c == value && open == close:
+                    case char c when c == value && bracketsBalance == 0:
                         //Console.WriteLine($"Contain on index {i} in {source}");
                         result = true;
                         break;
@@ -83,27 +86,27 @@ namespace Calculator
             {
                 case Operators.Add:
                     result = operand1.Result() + operand2.Result();
-                    Console.WriteLine($"{operand1.Result()}+{operand2.Result()}={result}");
+                    //Console.WriteLine($"{operand1.Result()}+{operand2.Result()}={result}");
                     break;
 
                 case Operators.Divide:
                     result = operand1.Result() / operand2.Result();
-                    Console.WriteLine($"{operand1.Result()}/{operand2.Result()}={result}");
+                    //Console.WriteLine($"{operand1.Result()}/{operand2.Result()}={result}");
                     break;
 
                 case Operators.Multiply:
                     result = operand1.Result() * operand2.Result();
-                    Console.WriteLine($"{operand1.Result()}*{operand2.Result()}={result}");
+                    //Console.WriteLine($"{operand1.Result()}*{operand2.Result()}={result}");
                     break;
 
                 case Operators.Power:
                     result = Math.Pow(operand1.Result(), operand2.Result());
-                    Console.WriteLine($"{operand1.Result()}^{operand2.Result()}={result}");
+                    //Console.WriteLine($"{operand1.Result()}^{operand2.Result()}={result}");
                     break;
 
                 case Operators.Substract:
                     result = operand1.Result() - operand2.Result();
-                    Console.WriteLine($"{operand1.Result()}-{operand2.Result()}={result}");
+                    //Console.WriteLine($"{operand1.Result()}-{operand2.Result()}={result}");
                     break;
             }
             return result;
@@ -167,15 +170,15 @@ namespace Calculator
                     break;
 
                 default:
-                    //if (input.Length==1&&char.IsLetter(char.Parse(input)))
-                    //{
-                    //    this.value=variables[char.Parse(input)];
-                    //}
-                    //else
-                    //{
-                    //Console.WriteLine($"String to parse:{input.Trim('(', ')')}");
-                    this.value = double.Parse(input.Trim('(', ')'));
-                    //}
+                    if (input.Length == 1 && char.IsLetter(char.Parse(input)))
+                    {
+                        this.value = CommonData.variables[char.Parse(input)];
+                    }
+                    else
+                    {
+                        //Console.WriteLine($"String to parse:{input.Trim('(', ')')}");
+                        this.value = double.Parse(input.Trim('(', ')'));
+                    }
                     this.haveValue = true;
                     break;
             }
@@ -217,22 +220,22 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            /*string input = Console.ReadLine();
-            Dictionary<char, double> variables = new Dictionary<char, double>();
+            string input = Console.ReadLine();
+            CommonData.variables = new Dictionary<char, double>();
             foreach (var item in input)
             {
                 if (char.IsLetter(item))
                 {
-                    variables.Add(item, 0);
+                    CommonData.variables.Add(item, 0);
                 }
             }
-            for (int i = 0; i < variables.Count; i++)
+            for (int i = 0; i < CommonData.variables.Count; i++)
             {
                 string[] tempInput = Console.ReadLine().Split(' ');
-                variables[char.Parse(tempInput[0])] = double.Parse(tempInput[1]);
+                CommonData.variables[char.Parse(tempInput[0])] = double.Parse(tempInput[1]);
             }
-            Console.Write(new Value(input).Result());*/
-            Console.Write(new Value(Console.ReadLine()).Result());
+            Console.Write(new Value(input).Result());
+            //Console.Write(new Value(Console.ReadLine()).Result());
         }
     }
 }

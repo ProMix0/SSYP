@@ -1,0 +1,13 @@
+C:\PABCWork.NET\Project of year\SSYP\Calculator\bin\Debug\netcoreapp3.1\Programm.exe
+C:\PABCWork.NET\Project of year\SSYP\Calculator\bin\Debug\netcoreapp3.1\Programm.deps.json
+C:\PABCWork.NET\Project of year\SSYP\Calculator\bin\Debug\netcoreapp3.1\Programm.runtimeconfig.json
+C:\PABCWork.NET\Project of year\SSYP\Calculator\bin\Debug\netcoreapp3.1\Programm.runtimeconfig.dev.json
+C:\PABCWork.NET\Project of year\SSYP\Calculator\bin\Debug\netcoreapp3.1\Programm.dll
+C:\PABCWork.NET\Project of year\SSYP\Calculator\bin\Debug\netcoreapp3.1\Programm.pdb
+C:\PABCWork.NET\Project of year\SSYP\Calculator\obj\Debug\netcoreapp3.1\Programm.csprojAssemblyReference.cache
+C:\PABCWork.NET\Project of year\SSYP\Calculator\obj\Debug\netcoreapp3.1\Programm.AssemblyInfoInputs.cache
+C:\PABCWork.NET\Project of year\SSYP\Calculator\obj\Debug\netcoreapp3.1\Programm.AssemblyInfo.cs
+C:\PABCWork.NET\Project of year\SSYP\Calculator\obj\Debug\netcoreapp3.1\Programm.csproj.CoreCompileInputs.cache
+C:\PABCWork.NET\Project of year\SSYP\Calculator\obj\Debug\netcoreapp3.1\Programm.dll
+C:\PABCWork.NET\Project of year\SSYP\Calculator\obj\Debug\netcoreapp3.1\Programm.pdb
+C:\PABCWork.NET\Project of year\SSYP\Calculator\obj\Debug\netcoreapp3.1\Programm.genruntimeconfig.cache
