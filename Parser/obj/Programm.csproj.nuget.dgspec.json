@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Миша\\Source\\Repos\\SSYP\\Calculator\\Programm.csproj": {}
+    "C:\\Users\\Миша\\Source\\Repos\\SSYP\\Parser\\Programm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Миша\\Source\\Repos\\SSYP\\Calculator\\Programm.csproj": {
+    "C:\\Users\\Миша\\Source\\Repos\\SSYP\\Parser\\Programm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Миша\\Source\\Repos\\SSYP\\Calculator\\Programm.csproj",
+        "projectUniqueName": "C:\\Users\\Миша\\Source\\Repos\\SSYP\\Parser\\Programm.csproj",
         "projectName": "Programm",
-        "projectPath": "C:\\Users\\Миша\\Source\\Repos\\SSYP\\Calculator\\Programm.csproj",
+        "projectPath": "C:\\Users\\Миша\\Source\\Repos\\SSYP\\Parser\\Programm.csproj",
         "packagesPath": "C:\\Users\\Миша\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Миша\\Source\\Repos\\SSYP\\Calculator\\obj\\",
+        "outputPath": "C:\\Users\\Миша\\Source\\Repos\\SSYP\\Parser\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Миша\\AppData\\Roaming\\NuGet\\NuGet.Config",
