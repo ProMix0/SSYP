@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Миша\\Source\\Repos\\SSYP\\Parser\\Programm.csproj",
-      "projectName": "Programm",
-      "projectPath": "C:\\Users\\Миша\\Source\\Repos\\SSYP\\Parser\\Programm.csproj",
+      "projectUniqueName": "C:\\Users\\Миша\\source\\repos\\SSYP\\Parser\\Parser.csproj",
+      "projectName": "Parser",
+      "projectPath": "C:\\Users\\Миша\\source\\repos\\SSYP\\Parser\\Parser.csproj",
       "packagesPath": "C:\\Users\\Миша\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Миша\\Source\\Repos\\SSYP\\Parser\\obj\\",
+      "outputPath": "C:\\Users\\Миша\\source\\repos\\SSYP\\Parser\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Миша\\AppData\\Roaming\\NuGet\\NuGet.Config",

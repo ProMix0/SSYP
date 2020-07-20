@@ -1,0 +1,19 @@
+C:\Users\Миша\source\repos\SSYP\WPF test\bin\Debug\netcoreapp3.1\WPF test.exe
+C:\Users\Миша\source\repos\SSYP\WPF test\bin\Debug\netcoreapp3.1\WPF test.deps.json
+C:\Users\Миша\source\repos\SSYP\WPF test\bin\Debug\netcoreapp3.1\WPF test.runtimeconfig.json
+C:\Users\Миша\source\repos\SSYP\WPF test\bin\Debug\netcoreapp3.1\WPF test.runtimeconfig.dev.json
+C:\Users\Миша\source\repos\SSYP\WPF test\bin\Debug\netcoreapp3.1\WPF test.dll
+C:\Users\Миша\source\repos\SSYP\WPF test\bin\Debug\netcoreapp3.1\WPF test.pdb
+C:\Users\Миша\source\repos\SSYP\WPF test\obj\Debug\netcoreapp3.1\WPF test.csprojAssemblyReference.cache
+C:\Users\Миша\source\repos\SSYP\WPF test\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Миша\source\repos\SSYP\WPF test\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Миша\source\repos\SSYP\WPF test\obj\Debug\netcoreapp3.1\WPF test_MarkupCompile.cache
+C:\Users\Миша\source\repos\SSYP\WPF test\obj\Debug\netcoreapp3.1\WPF test_MarkupCompile.lref
+C:\Users\Миша\source\repos\SSYP\WPF test\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Миша\source\repos\SSYP\WPF test\obj\Debug\netcoreapp3.1\WPF test.g.resources
+C:\Users\Миша\source\repos\SSYP\WPF test\obj\Debug\netcoreapp3.1\WPF test.csproj.CoreCompileInputs.cache
+C:\Users\Миша\source\repos\SSYP\WPF test\obj\Debug\netcoreapp3.1\WPF test.AssemblyInfoInputs.cache
+C:\Users\Миша\source\repos\SSYP\WPF test\obj\Debug\netcoreapp3.1\WPF test.AssemblyInfo.cs
+C:\Users\Миша\source\repos\SSYP\WPF test\obj\Debug\netcoreapp3.1\WPF test.dll
+C:\Users\Миша\source\repos\SSYP\WPF test\obj\Debug\netcoreapp3.1\WPF test.pdb
+C:\Users\Миша\source\repos\SSYP\WPF test\obj\Debug\netcoreapp3.1\WPF test.genruntimeconfig.cache

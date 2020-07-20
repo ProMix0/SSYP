@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Миша\\Source\\Repos\\SSYP\\Calculator\\Programm.csproj",
-      "projectName": "Programm",
-      "projectPath": "C:\\Users\\Миша\\Source\\Repos\\SSYP\\Calculator\\Programm.csproj",
+      "projectUniqueName": "C:\\Users\\Миша\\source\\repos\\SSYP\\Calculator\\Calculator.csproj",
+      "projectName": "Calculator",
+      "projectPath": "C:\\Users\\Миша\\source\\repos\\SSYP\\Calculator\\Calculator.csproj",
       "packagesPath": "C:\\Users\\Миша\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Миша\\Source\\Repos\\SSYP\\Calculator\\obj\\",
+      "outputPath": "C:\\Users\\Миша\\source\\repos\\SSYP\\Calculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Миша\\AppData\\Roaming\\NuGet\\NuGet.Config",

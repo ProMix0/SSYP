@@ -11,3 +11,16 @@ C:\PABCWork.NET\Project of year\SSYP\Calculator\obj\Debug\netcoreapp3.1\Programm
 C:\PABCWork.NET\Project of year\SSYP\Calculator\obj\Debug\netcoreapp3.1\Programm.dll
 C:\PABCWork.NET\Project of year\SSYP\Calculator\obj\Debug\netcoreapp3.1\Programm.pdb
 C:\PABCWork.NET\Project of year\SSYP\Calculator\obj\Debug\netcoreapp3.1\Programm.genruntimeconfig.cache
+C:\Users\Миша\source\repos\SSYP\Calculator\bin\Debug\netcoreapp3.1\Programm.exe
+C:\Users\Миша\source\repos\SSYP\Calculator\bin\Debug\netcoreapp3.1\Programm.deps.json
+C:\Users\Миша\source\repos\SSYP\Calculator\bin\Debug\netcoreapp3.1\Programm.runtimeconfig.json
+C:\Users\Миша\source\repos\SSYP\Calculator\bin\Debug\netcoreapp3.1\Programm.runtimeconfig.dev.json
+C:\Users\Миша\source\repos\SSYP\Calculator\bin\Debug\netcoreapp3.1\Programm.dll
+C:\Users\Миша\source\repos\SSYP\Calculator\bin\Debug\netcoreapp3.1\Programm.pdb
+C:\Users\Миша\source\repos\SSYP\Calculator\obj\Debug\netcoreapp3.1\Programm.csprojAssemblyReference.cache
+C:\Users\Миша\source\repos\SSYP\Calculator\obj\Debug\netcoreapp3.1\Programm.csproj.CoreCompileInputs.cache
+C:\Users\Миша\source\repos\SSYP\Calculator\obj\Debug\netcoreapp3.1\Programm.AssemblyInfoInputs.cache
+C:\Users\Миша\source\repos\SSYP\Calculator\obj\Debug\netcoreapp3.1\Programm.AssemblyInfo.cs
+C:\Users\Миша\source\repos\SSYP\Calculator\obj\Debug\netcoreapp3.1\Programm.dll
+C:\Users\Миша\source\repos\SSYP\Calculator\obj\Debug\netcoreapp3.1\Programm.pdb
+C:\Users\Миша\source\repos\SSYP\Calculator\obj\Debug\netcoreapp3.1\Programm.genruntimeconfig.cache

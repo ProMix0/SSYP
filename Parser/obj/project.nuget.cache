@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gIz2hTeC/nLbNVTUPHwdHq7ZkeTJty9KiJ/HzOXKGH56StDD69tqBV32qqS5AZvOUnsrCb4ghaf5Ik5oyAr0Rg==",
+  "dgSpecHash": "ER2wS2To4QC5ojvps4Xvra98hh7UgzAWjgIzh/El6GusLS4mWhIJX19ycTBV7lNZ3zbhILZm+d+rsb2PQSiK9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Миша\\Source\\Repos\\SSYP\\Parser\\Programm.csproj",
+  "projectFilePath": "C:\\Users\\Миша\\source\\repos\\SSYP\\Parser\\Parser.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

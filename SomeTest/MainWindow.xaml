@@ -1,0 +1,28 @@
+﻿<Window x:Class="ItemsControlDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ItemsControlDemo"
+        mc:Ignorable="d"
+        Name="MyMainWindow"
+        Title="MainWindow" Height="450" Width="800" d:DataContext="{d:DesignData MainWindow}">
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
+            <Button Click="Add_OnClick">+</Button>
+        </StackPanel>
+        <ItemsControl ItemsSource="{Binding Items}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel HorizontalAlignment="Left" Orientation="Vertical">
+                            <TextBlock Text="{Binding Text}" />
+                            <Button Command="{Binding AppendSuffixClickAction}" Content="Add suffix" />
+                        </StackPanel>
+                        <Button Command="{Binding RemoveClickAction}" CommandParameter="{Binding ., ElementName=MyMainWindow}" Content="-" />
+                    </StackPanel>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+    </DockPanel>
+</Window>
